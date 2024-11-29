@@ -8,7 +8,7 @@ class TestVisaoAluno(unittest.TestCase):
         self.assertIsNone(VisaoAluno.exibir_alunos(alunos))
 
     def test_solicitar_nome_aluno(self):
-        # Testar entrada simulada (não aplicável diretamente aqui)
+        # Testar entrada simulada
         pass
 
 if __name__ == "__main__":
