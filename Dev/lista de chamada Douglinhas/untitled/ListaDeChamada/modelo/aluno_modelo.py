@@ -11,8 +11,8 @@ class ModeloAluno:
     Gerencia a lista de alunos e fornece métodos para manipulação.
     """
     def __init__(self):
-        self.alunos = List[str] = []
-
+        self.alunos: List[str] = []
+        
     def adicionar_aluno(self, nome: str) -> None:
         """
         Adiciona um aluno à lista.
