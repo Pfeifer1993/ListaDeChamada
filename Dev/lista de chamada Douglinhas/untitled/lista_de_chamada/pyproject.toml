@@ -2,7 +2,7 @@
 name = "ListaDeChamada"
 version = "0.1.0"
 description = "Projeto para gerenciamento de lista de chamada de alunos."
-authors = ["Seu Nome <seu_email@example.com>"]
+authors = ["Grupo 6 <luisamoraes221@gmail.com>"]
 license = "MIT"
 
 # Dependências do projeto

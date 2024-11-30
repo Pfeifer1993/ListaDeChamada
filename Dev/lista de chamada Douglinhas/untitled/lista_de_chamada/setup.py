@@ -8,12 +8,11 @@ setup(
     name="ListaDeChamada",
     version="0.1.0",
     description="Projeto para gerenciamento de lista de chamada de alunos.",
-    author="Maria Luisa",
+    author="Grupo 6",
     author_email="luisamoraes221@gmail.com",
     license="MIT",
     packages=find_packages(),
     install_requires=[
-        # Dependências do projeto
     ],
     extras_require={
         "dev": [
