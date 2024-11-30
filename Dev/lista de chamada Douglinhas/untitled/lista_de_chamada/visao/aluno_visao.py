@@ -1,11 +1,11 @@
-from typing import List
-
 """
 Este módulo contém a classe VisaoAluno, que gerencia a interação com o usuário
 para exibição e entrada de dados relacionados aos alunos. Ele oferece métodos
 para exibir a lista de alunos e solicitar o nome de um aluno, além de exibir
 mensagens para o usuário.
 """
+
+from typing import List
 
 class VisaoAluno:
     """Gerencia a interação com o usuário para exibição e entrada de dados."""

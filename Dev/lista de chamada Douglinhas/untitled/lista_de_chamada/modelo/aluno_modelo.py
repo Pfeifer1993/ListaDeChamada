@@ -1,10 +1,9 @@
-from typing import List
-
 """
 Módulo para gerenciar a lista de alunos.
 Contém a classe ModeloAluno, que oferece métodos para manipular a lista.
 """
 
+from typing import List
 
 class ModeloAluno:
     """
@@ -12,7 +11,7 @@ class ModeloAluno:
     """
     def __init__(self):
         self.alunos: List[str] = []
-        
+
     def adicionar_aluno(self, nome: str) -> None:
         """
         Adiciona um aluno à lista.

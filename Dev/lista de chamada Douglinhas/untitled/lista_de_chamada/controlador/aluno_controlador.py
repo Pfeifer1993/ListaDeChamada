@@ -1,9 +1,7 @@
-from modelo.aluno_modelo import ModeloAluno
-from visao.aluno_visao import VisaoAluno
-
 """
 Este módulo contém o controlador para gerenciar a lógica entre o modelo e a visão no sistema de alunos.
 """
+
 class ControladorAluno:
     """
     Classe responsável por coordenar as interações entre o modelo e a visão.

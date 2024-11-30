@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "ListaDeChamada"
+version = "0.1.0"
+description = "Projeto para gerenciamento de lista de chamada de alunos."
+authors = ["Seu Nome <seu_email@example.com>"]
+license = "MIT"
+
+# Dependências do projeto
+[tool.poetry.dependencies]
+python = "^3.12"
+
+# Dependências de desenvolvimento (para ferramentas como pytest, pylint, mypy, etc.)
+[tool.poetry.dev-dependencies]
+pytest = "^7.0"
+pylint = "^2.15"
+mypy = "^1.0"
+flake8 = "^5.0"
+black = "^23.0"
+
+# Ferramentas de formatação
+[tool.black]
+line-length = 88
+skip-string-normalization = true
+
+# Ferramenta de tipagem estática mypy
+[tool.mypy]
+files = "ListaDeChamada"
+ignore_missing_imports = true

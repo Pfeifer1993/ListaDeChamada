@@ -1,0 +1,5 @@
+venv/
+*.pyc
+__pycache__/
+ListaDeChamada.egg-info/
+.mypy_cache/
