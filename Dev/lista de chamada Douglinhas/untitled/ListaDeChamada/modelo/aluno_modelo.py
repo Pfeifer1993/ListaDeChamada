@@ -1,3 +1,8 @@
+"""
+Módulo para gerenciar a lista de alunos.
+Contém a classe ModeloAluno, que oferece métodos para manipular a lista.
+"""
+
 class ModeloAluno:
     """
     Gerencia a lista de alunos e fornece métodos para manipulação.
@@ -12,6 +17,9 @@ class ModeloAluno:
         self.alunos.append(nome)
 
     def obter_alunos(self):
+        """
+        Retorna a lista de alunos cadastrados.
+        """
         return self.alunos
 
     def limpar_alunos(self):
@@ -19,6 +27,3 @@ class ModeloAluno:
         Remove todos os alunos da lista.
         """
         self.alunos.clear()
-
-    def exibir_mensagem(self, mensagem):
-        print(mensagem)

@@ -1,4 +1,11 @@
+"""
+Este módulo contém o controlador para gerenciar a lógica entre o modelo e a visão no sistema de alunos.
+"""
 class ControladorAluno:
+    """
+    Classe responsável por coordenar as interações entre o modelo e a visão.
+    """
+    # pylint: disable=too-few-public-methods
 
     def __init__(self, modelo, visao):
 
@@ -6,6 +13,9 @@ class ControladorAluno:
         self.visao = visao
 
     def executar(self):
+        """
+        Inicia o loop principal para gerenciar a entrada do usuário e a interação entre modelo e visão.
+        """
 
         while True:
             nome = self.visao.solicitar_nome_aluno()
