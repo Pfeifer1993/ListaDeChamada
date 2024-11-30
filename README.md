@@ -13,6 +13,9 @@ Este sistema permite que o professor ou responsável pela lista de chamada regis
 - **Visualização**: Exibe uma lista dos alunos com seu status de presença.
 - **Validação de Dados**: Garante que os nomes dos alunos sejam registrados corretamente, permitindo apenas letras.
 
+## Overview
+![image](https://github.com/user-attachments/assets/2080a3fd-e946-4d78-ad38-bc54c0a8aea4)
+
 ## Instalação
 
 Para rodar o projeto em sua máquina local, siga os seguintes passos:
