@@ -10,10 +10,10 @@ class ControladorAluno:
         while True:
             nome = self.visao.solicitar_nome_aluno()
             if not nome.strip():
-                self.visao.exibir_mensagem("O nome não deve ser vazio. Tente novamente.")
+                self.modelo.exibir_mensagem("O nome não deve ser vazio. Tente novamente.")
                 continue
             if not nome.isalpha():
-                self.visao.exibir_mensagem("O nome deve conter apenas letras. Tente novamente.")
+                self.modelo.exibir_mensagem("O nome deve conter apenas letras. Tente novamente.")
                 continue
             if nome.lower() == "sair":
                 break

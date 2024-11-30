@@ -19,3 +19,6 @@ class ModeloAluno:
         Remove todos os alunos da lista.
         """
         self.alunos.clear()
+
+    def exibir_mensagem(self, mensagem):
+        print(mensagem)
