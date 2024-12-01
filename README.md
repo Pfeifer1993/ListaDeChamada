@@ -32,7 +32,13 @@ git clone https://github.com/Pfeifer1993/ListaDeChamada.git
 Antes de rodar o projeto, certifique-se de ter o Python instalado na sua máquina. Para instalar as dependências, execute o comando:
 
 ```bash
+pip install mypy pylint
+```
+```bash
 pip install -r requirements.txt
+```
+```bash
+poetry install
 ```
 ### 3. Rodar o projeto
 
